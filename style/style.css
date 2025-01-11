@@ -178,7 +178,7 @@ background: rgb(255, 255, 255);
     width: 408px;
     height: 306px;
     
-    border-radius: 24px
+    border-radius: 10px
 }
 .channel-button{
     padding: 13px 26px;
@@ -212,6 +212,7 @@ background: rgb(255, 255, 255);
     height: 128px;
     border-radius: 16px;
     padding: 20px 20px;
+    background-color: white;
     box-shadow: 0px 6px 50px 0px rgb(173, 165, 165);
     text-align: center;
 
@@ -246,7 +247,7 @@ background: rgb(255, 255, 255);
 
  /* footer */
  footer section{
-    width: 1280px;
+    width: 1150px;
     margin: 0 auto;
     padding: 80px 100px;
     height: 380px;
@@ -269,6 +270,8 @@ background: rgb(255, 255, 255);
     color: #FFFFFF;
     background-color: #006A50;
     border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
  }
  input[type="email"]{
     width: 1000px;
@@ -286,10 +289,24 @@ background: rgb(255, 255, 255);
  /* last part */
  .bd-title{
     margin-bottom: 32px;
+    margin-top: 100px;
+    padding: 25px 160px;
  }
  hr{
-    width: 1280px;
+    /* width: 1500px; */
     text-align: center;
     color: #0E0E0E;
     margin-bottom: 32px;
  }
+
+ /* contact link-styles */
+ .contact-link{
+    width: 1800px;
+    /* height: 800px; */
+    margin-top: 100px;
+    background-color: white;
+    /* box-shadow: 0px 6px 50px 0px white; */
+    text-align: center;
+
+ }
+ 
