@@ -15,6 +15,9 @@
     font-weight: 600;
     color: #FFFFFF;
 }
+.btn-hover:hover{
+    background-color: #006A50;
+}
 .text-center{
     text-align: center;
 }
@@ -60,7 +63,86 @@
     color: rgb(79, 206, 79);
 }
 /* main-styles */
-main{
+main section{
     width: 1280px;
     margin: 0 auto;
 }
+/* vision-styles */
+.vision-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 24px;
+}
+.backgroud-cotation{
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding:48px 24px 48px 24px; ;
+}
+.advisor-cotation{
+    
+    width: 1280px;
+    height: 150px;
+    background-color: #e5b3b3;
+    border-radius: 16px;
+    padding: 48px 24px 48px 24px;
+}
+.adviser-statement{
+    /* width: 100%; */
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.adviser-name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.vision{
+    width: 410px;
+    height: 300px;
+    border-radius: 16px;
+    padding: 32px 32px 32px 32px;
+    
+
+}
+.vision-Digital-Transformation{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-Green-Energy{
+    background-color: #C6E4D6;
+}
+.vision-Modern-Infrastructure{
+   background-color: #F7EBCF;
+}
+.section-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+.vision-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.vision-button{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    /* background-color: #006A50; */
+}
+/* .vision-button-Digital-Transformation:hover{
+    color: aqua;
+    background-color: #0456e4;
+} */
+.vision-button-color-1{
+    background-color: #5490F5;
+}
+.vision-button-color-2{
+    background-color: #09A15C;
+}
+.vision-button-color-3{
+    background-color: #FFC239;
+}
+.vision-bu
