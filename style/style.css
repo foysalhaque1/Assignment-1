@@ -26,11 +26,16 @@
     font-weight: bold;
     color: #0E0E0E;
 }
+.secondary-bg{
+    background-color: #F1F1F3;
+    width: 1800px;
+    margin: 0 auto;
+}
 /* banner-style */
 .banner{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+     /* align-items: center;  */
     background-color: #C6E4D6;
     width: 1100px;
     height: 560px;
@@ -54,10 +59,10 @@
 }
 .banner-button{
     padding: 17px 34px;
-    margin-bottom: 117px;
+    /* margin-bottom: 200px; */
 }
 .banner-img{
-    margin-top: 90px;
+    margin-top: 140px;
 }
 .banner-button:hover{
     color: rgb(79, 206, 79);
@@ -66,7 +71,13 @@
 main section{
     width: 1280px;
     margin: 0 auto;
+    
 }
+/* main{
+    background-color: #F1F1F3;
+    max-width: 1400px;
+    margin: 0 auto;
+} */
 /* vision-styles */
 .vision-container{
     display: flex;
@@ -78,15 +89,17 @@ main section{
 .backgroud-cotation{
     background-image: url(/assets/quote-bg.png);
     background-repeat: no-repeat;
-    padding:48px 24px 48px 24px; ;
+    /* margin-left: 20px; */
+    
 }
 .advisor-cotation{
     
-    width: 1280px;
+    width: 1240px;
     height: 150px;
-    background-color: #e5b3b3;
+    background-color: white;
     border-radius: 16px;
-    padding: 48px 24px 48px 24px;
+    padding: 30px 30px 48px 30px;
+    box-shadow: 0px 6px 50px 0px rgb(189, 165, 165);
 }
 .adviser-statement{
     /* width: 100%; */
@@ -269,4 +282,14 @@ background: rgb(255, 255, 255);
  }
  .subscribe{
     margin-bottom: 50px;
+ }
+ /* last part */
+ .bd-title{
+    margin-bottom: 32px;
+ }
+ hr{
+    width: 1280px;
+    text-align: center;
+    color: #0E0E0E;
+    margin-bottom: 32px;
  }
