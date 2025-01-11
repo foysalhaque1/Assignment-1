@@ -16,7 +16,7 @@
     color: #FFFFFF;
 }
 .btn-hover:hover{
-    background-color: #006A50;
+    background-color:blue
 }
 .text-center{
     text-align: center;
@@ -130,7 +130,7 @@ main section{
     color: white;
     padding: 11px 20px;
     border-radius: 8px;
-    /* background-color: #006A50; */
+    background-color: #006A50;
 }
 /* .vision-button-Digital-Transformation:hover{
     color: aqua;
@@ -145,4 +145,45 @@ main section{
 .vision-button-color-3{
     background-color: #FFC239;
 }
-.vision-bu
+
+
+/* recent-news-styles */
+
+.Alzajeera-news-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    border-radius: 24px;
+    padding: 48px 48px;
+    box-shadow: 0px 6px 50px 0px rgb(173, 165, 165);
+    margin-bottom: 24px;
+
+background: rgb(255, 255, 255);
+}
+.news-img{
+    width: 408px;
+    height: 306px;
+    
+    border-radius: 24px
+}
+.channel-button{
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.news-content{
+    width: 740px;
+    height: 290px;
+    margin-bottom: 80px;
+}
+
