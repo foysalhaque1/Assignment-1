@@ -187,3 +187,79 @@ background: rgb(255, 255, 255);
     margin-bottom: 80px;
 }
 
+/* donate-today-styles */
+.donate-amount{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+    
+}
+.donate-in-bdt{
+    width: 243px;
+    height: 128px;
+    border-radius: 16px;
+    padding: 20px 20px;
+    box-shadow: 0px 6px 50px 0px rgb(173, 165, 165);
+    text-align: center;
+
+}
+/* .amount-in{
+    width: 1032px;
+    height: 64px;
+} */
+ input[type="text"]{
+    width: 1032px;
+    padding: 20px 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-bottom: 50px;
+    border: none;
+    box-shadow: 0px 6px 50px 0px rgb(173, 165, 165);
+ }
+ .dbutton{
+    padding: 17px 34px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+
+ }
+
+ /* footer */
+ footer section{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 100px;
+    height: 380px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin-bottom: 80px;
+
+ }
+ .subscribe-info{
+    display: flex;
+    align-items: center;
+    text-align: center;
+ }
+ .subcribe-button{
+    padding: 17px 34px;
+    /* border-radius: 8px; */
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+ }
+ input[type="email"]{
+    width: 600px;
+    padding: 16px ;
+    /* text-align: center; */
+    font-size: 20px;
+    color: #0E0E0E;
+    /* margin-bottom: 50px; */
+    border: none;
+    box-shadow: 0px 6px 50px 0px rgb(173, 165, 165);
+ }
