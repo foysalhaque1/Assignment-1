@@ -89,6 +89,9 @@ main section{
 .backgroud-cotation{
     background-image: url(/assets/quote-bg.png);
     background-repeat: no-repeat;
+    /* width: 64px;
+    height: 64px;
+    background-position: .5px 100px; */
     /* margin-left: 20px; */
     
 }
