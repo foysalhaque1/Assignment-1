@@ -87,7 +87,7 @@ main section{
     gap: 24px;
 }
 .backgroud-cotation{
-    background-image: url(assets/quote-bg.png);
+    background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     /* width: 64px;
     height: 64px;
